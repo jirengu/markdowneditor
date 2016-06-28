@@ -1,0 +1,45 @@
+<!doctype>
+<html>
+
+<head>
+  <style>
+    #editor {
+      width: 600px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="editor"><textarea id="my-edit-area"></textarea>
+
+  </div>
+  <script src="http://cdn.jirengu.com/editor/js/epiceditor.min.js"></script>
+  <script>
+  var opts = {
+    container: 'editor'
+
+    // theme: {
+    //   base: '/themes/base/epiceditor.css',
+    //   preview: '/themes/preview/github.css',
+    //   editor: '/themes/editor/epic-light.css'
+    // },
+    // button: {
+    //   upload: true,
+    //   preview: true,
+    //   fullscreen: true,
+    //   bar: "auto"
+    // },
+    // focusOnLoad: true,
+    // autogrow: true
+  }
+  var editor = new EpicEditor(opts);
+  editor.load()
+
+
+
+    </script>
+</body>
+
+</html>

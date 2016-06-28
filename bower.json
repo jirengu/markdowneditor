@@ -1,0 +1,17 @@
+{
+  "name": "editor",
+  "authors": [
+    "hunger <hunger@jirengu.com>"
+  ],
+  "description": "支持图片上传的markdown编辑器",
+  "main": "js/epiceditor.min.js",
+  "moduleType": [],
+  "keywords": [
+    "markdown",
+    "editor",
+    "hunger-valley",
+    "饥人谷"
+  ],
+  "license": "MIT",
+  "homepage": ""
+}
